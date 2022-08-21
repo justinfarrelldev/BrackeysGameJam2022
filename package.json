@@ -1,0 +1,11 @@
+{
+  "name": "brackeysgamejam2022",
+  "version": "1.0.0",
+  "description": "Game jam 2022",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
