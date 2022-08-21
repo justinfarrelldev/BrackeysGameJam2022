@@ -4,11 +4,12 @@
   "description": "Game jam 2022",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "npx parcel index.html -p 3000",
+    "build": "npx parcel build index.html --public-url ./"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "parcel": "^2.7.0"
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
